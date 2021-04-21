@@ -46,7 +46,7 @@ exports.login = async (req, res) => {
         return res.status(200).json({
             message: '로그인 성공',
             data : {
-                token
+                'x-access-token': token
             }
         })
     } catch (error) {
