@@ -16,12 +16,12 @@ exports.yellow = (str) => {
   console.log(colors.yellow(str));
 };
 
-exports.grey = (str) => {
-  webLogger.info(str);
-  console.log(colors.grey(str));
-};
+// exports.grey = (str) => {
+//   webLogger.info(str);
+//   console.log(colors.grey(str));
+// };
 
-exports.gray = (str) => {
-  webLogger.info(str);
-  console.log(colors.gray(str));
-};
+// exports.gray = (str) => {
+//   webLogger.info(str);
+//   console.log(colors.gray(str));
+// };
